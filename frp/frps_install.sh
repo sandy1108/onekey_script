@@ -20,7 +20,7 @@ cd frp
 cp frps /usr/bin/frps
 mkdir /etc/frp
 cp frps.ini /etc/frp/frps.ini
-cp systemd/frps.service /usr/lib/systemd/
+cp systemd/frps.service /lib/systemd/system/
 
 echo 'frps.ini配置文件内容为：'
 
